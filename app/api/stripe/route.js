@@ -5,6 +5,7 @@ const formatAmountForStripe = (amount, currency) => {
     return Math.round(amount * 100)
    }
 
+console.log("STRIPE_SECRET_KEY:", process.env.STRIPE_SECRET_KEY);
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2022-11-15',
 })
