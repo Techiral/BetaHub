@@ -2,6 +2,7 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
 import { InView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 function Section1() {
   return (

@@ -4,6 +4,7 @@ import { Box, Typography, Card, CardContent, Grid, List, ListItem, ListItemIcon,
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'; // For tick mark icons
 import FeatureIcon from '@mui/icons-material/Star'; // Placeholder icon for features
 import { styled } from '@mui/material/styles';
+import Image from 'next/image';
 
 const GlassCard = styled(Card)(({ theme }) => ({
   background: 'rgba(255, 255, 255, 0.1)',
