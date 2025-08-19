@@ -39,11 +39,11 @@ function Section1() {
                   transformOrigin: 'center',
                 }}
               >
-                <img
+                <Image
                   src="/image1.png"
                   alt="BetaHub"
-                  width={500} // Adjust width as needed
-                  height={300} // Adjust height as needed
+                  width={500}
+                  height={300}
                   className="w-4/6 h-auto"
                   style={{
                     maxWidth: '100%',
