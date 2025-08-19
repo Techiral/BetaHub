@@ -67,7 +67,7 @@ function FeaturesAndPricing() {
                   <Box className="flex flex-col items-center justify-center ">
                   <Typography variant="h5" className="text-teal-50 font-bold mb-2">{feature.title}</Typography>
                   <Typography variant="body1" className="text-white">{feature.description}</Typography>
-                  <img className='w-fit' src={feature.image} width={200} height={200} />
+                  <Image className='w-fit' src={feature.image} width={200} height={200} alt={feature.title}/>
                   </Box>
                 </CardContent>
               </GlassCard>

@@ -6,7 +6,7 @@ import { useClerk } from '@clerk/clerk-react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
-function dashpane() {
+function Dashpane() {
     const [mobileOpen, setMobileOpen] = useState(false);
     const [darkMode, setDarkMode] = useState(true);
     const { user } = useClerk();
@@ -31,7 +31,7 @@ function dashpane() {
         <div>
           <Box className='h-screen flex flex-col justify-start'>
             <Badge badgeContent={'Beta'} color={' bg-gradient-to-tr from-purple-400 to-rose-900 '}  className='flex justify-center self-center rounded-full mt-7'>
-          <Image src={'/BetaHub_Logo.avif'} height={'80'} width={'80'} className='flex justify-center self-center rounded-full'></Image> 
+          <Image src={'/BetaHub_Logo.avif'} height={'80'} width={'80'} className='flex justify-center self-center rounded-full' alt=""/>
           </Badge>
           <Divider />
           <List className='flex flex-col justify-between items-start max-h-full'>

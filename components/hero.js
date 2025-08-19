@@ -13,7 +13,7 @@ function hero() {
           </Typography>
         </Box>
         <a href='#sec1' className='flex justify-center'>
-          <Image src={'/scroller.png'} height={'80'} width={'80'} className='animate-spin' />
+          <Image src={'/scroller.png'} height={'80'} width={'80'} className='animate-spin' alt="Scroll Down"/>
         </a>
       </Box>
     </Box>

@@ -8,7 +8,7 @@ function navbar() {
         <Box className='w-full flex flex-row justify-center items-center'>
             <a href='#'>
                 {/* <Badge badgeContent={'Beta'} color={' bg-gradient-to-tr from-purple-400 to-rose-900 '}  className='flex justify-center self-center rounded-full mt-2'> */}
-                <Image src='/BetaHub (1).png' width={120} height={120} />
+                <Image src='/BetaHub (1).png' width={120} height={120} alt="BetaHub Logo" />
                 {/* </Badge> */}
                 </a>
         </Box>

@@ -43,7 +43,7 @@ const Profile = () => {
     <div>
       <Box className='h-screen flex flex-col justify-start'>
       <Badge badgeContent={'Beta'} color={' bg-gradient-to-tr from-purple-400 to-rose-900 '} className='flex justify-center self-center rounded-full mt-7'>
-      <Image src={'/betahub_logo.avif'} height={'80'} width={'80'} className='flex justify-center self-center rounded-full'></Image> </Badge>
+      <Image src={'/betahub_logo.avif'} height={'80'} width={'80'} className='flex justify-center self-center rounded-full' alt="" ></Image> </Badge>
       <Divider />
         <List className='flex flex-col justify-between items-start max-h-full'>
           <ListItem className='flex flex-col'>

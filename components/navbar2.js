@@ -6,7 +6,7 @@ function navbar() {
   return (
     <AppBar className='sticky w-screen flex flex-row justify-between items-center gap-4 bg-black bg-opacity-90 py-1'>
         <Box className='w-full flex flex-row justify-center items-center'>
-            <a href='#'><Image src='/BetaHub (1).png' width={120} height={120} /></a>
+            <a href='#'><Image src='/BetaHub (1).png' width={120} height={120} alt="BetaHub Logo"/></a>
         </Box>
         <Box className='w-full flex flex-row justify-center items-center gap-10'>
             <a href='../'><Typography className='text-slate-300 hover:font-bold hover:text-white'>HOME</Typography></a>
