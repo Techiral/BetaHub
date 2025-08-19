@@ -6,7 +6,8 @@ import {
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { useRouter } from 'next/navigation';
 import { useClerk } from '@clerk/clerk-react';
-import Dashpane from '@/components/dashpane';
+const Dashpane = dynamic(() => import('@/components/dashpane'));
+import dynamic from 'next/dynamic';
 import { collection, doc, getDoc, setDoc, writeBatch } from 'firebase/firestore';
 import { firestore } from '@/firebase';
 

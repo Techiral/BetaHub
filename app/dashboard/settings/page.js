@@ -7,7 +7,8 @@ import { useClerk } from '@clerk/clerk-react';
 import { Line } from 'react-chartjs-2';
 import Image from 'next/image';
 import 'daisyui';
-import Dashpane from '@/components/dashpane';
+const Dashpane = dynamic(() => import('@/components/dashpane'));
+import dynamic from 'next/dynamic';
 
 const drawerWidth = 240;
 
